@@ -36,4 +36,16 @@ Creates structured learning roadmaps based on a user's goal and experience level
 
 
 ## Project Structure
-
+genai_assin/
+│
+├── app.py # FastAPI entry point
+├── services/ # AI microservices
+│ ├── summarizer.py
+│ ├── qa_service.py
+│ └── learning_path.py
+│
+├── utils/
+│ └── vector_store.py # FAISS + embeddings
+│
+├── requirements.txt
+└── README.md
