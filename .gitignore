@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+env/
+venv/
+api_env/
+genai_assin/
+
+# VS Code
+.vscode/
+
+# Upload/temp files
+temp_docs/
+
+# FAISS index files (if later added)
+*.faiss
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
